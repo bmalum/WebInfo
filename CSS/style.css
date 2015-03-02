@@ -6,6 +6,11 @@ body {
   font-size: 15px;
 }
 
+.wrapper {
+  margin: auto;
+  width: 1200px; 
+}
+
 nav {
   background-color: #fff;
   border: 1px solid #dedede;
@@ -13,9 +18,9 @@ nav {
   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
   color: #888;
   display: block;
-  margin: 8px 22px 8px 22px;
+  margin: auto;
   overflow: hidden;
-  width: 90%; 
+  width: 1200px; 
 }
 
   nav ul {
@@ -135,4 +140,3 @@ nav {
               nav > ul > li > div ul > li:hover > a {
                 background-color: rgba( 255, 255, 255, 0.1);
               }
-	
